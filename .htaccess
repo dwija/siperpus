@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^index.html$ index.php?pg=home [L]
+RewriteRule ^profil.html$ index.php?pg=profil [L]
+RewriteRule ^buku.html$ index.php?pg=buku [L]
+RewriteRule ^bantuan.html$ index.php?pg=bantuan [L]
+RewriteRule ^daftar.html$ index.php?pg=daftar [L]
+
+
+</IfModule>
